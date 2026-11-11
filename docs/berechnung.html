@@ -28,13 +28,13 @@
 <h2>Übernachtung und Kilometer</h2>
 <ul>
 <li>Mit Hotelrechnung wird die Rechnung als Beleg erfasst. Für dieselbe Nacht gibt es nie zusätzlich die Übernachtungspauschale.</li>
-<li>Die Übernachtungspauschale von 20,00 € je Nacht ist für private Übernachtungen gedacht und steht unter <em>Hinzufügen › Weitere Posten</em>.</li>
-<li>Kilometer: Strecke mal Satz, auf Cent gerundet. <em>Beispiel:</em> 120 km mit dem Pkw = 36,00 €.</li>
+<li>Die Übernachtungspauschale von 20,00 € je Nacht ist für private Übernachtungen gedacht und steht unter <em>Hinzufügen › Weitere Posten</em>. Sie ist der Betrag, den ein Arbeitgeber ohne Einzelnachweis steuerfrei erstatten darf; als Werbungskosten in der Steuererklärung zählen nur die tatsächlichen Kosten.</li>
+<li>Kilometer: Strecke mal Satz, auf Cent gerundet; 0,30 € je km für den Pkw, 0,20 € je km für jedes andere motorbetriebene Fahrzeug. <em>Beispiel:</em> 120 km mit dem Pkw = 36,00 €.</li>
 </ul>
 <h2>Belege und Umsatzsteuer</h2>
 <ul>
 <li>Beträge auf Belegen sind Bruttobeträge, die Umsatzsteuer ist enthalten: <code>USt = Brutto × Satz / (100 + Satz)</code>, auf Cent gerundet. <em>Beispiel:</em> 231,80 € bei 19 % enthalten 37,01 € USt.</li>
-<li>Steuersätze: 19 % (regulär), 7 % (ermäßigt), 0 %. Die Voreinstellung folgt der Belegart (7 % zum Beispiel für Fahrkarten im Fernverkehr, Bücher, Fährtickets und Taxi, sonst 19 %). Sie ist ein Vorschlag; maßgeblich ist der Beleg, und du kannst den Satz je Beleg ändern.</li>
+<li>Steuersätze: 19 % (regulär), 7 % (ermäßigt), 0 %. Die Voreinstellung folgt der Belegart (7 % zum Beispiel für Fahrkarten im Fernverkehr, Bücher, Fährtickets und Taxi, sonst 19 %). Sie ist ein Vorschlag; maßgeblich ist der Beleg, und du kannst den Satz je Beleg ändern. Seit dem 1. Januar 2026 gilt für Speisen in der Gastronomie 7 %, für Getränke weiterhin 19 %: Bei einer Rechnung mit beidem teilst du sie in Posten.</li>
 <li><strong>Mehrere Steuersätze auf einem Beleg:</strong> Der Beleg wird in Posten geteilt. Der Betrag ist die Summe der Posten, die Umsatzsteuer wird je Satz berechnet und addiert.</li>
 <li>Ein Beleg, den die Firma schon bezahlt hat, zählt in der Summe der Belege und wird vom Erstattungsbetrag wieder abgezogen.</li>
 </ul>
@@ -53,6 +53,16 @@
 <li>Ob eine Reise steuerlich als Dienstreise gilt (erste Tätigkeitsstätte, Dreimonatsfrist u. Ä.) und die Behandlung beim Arbeitgeber (Steuerfreiheit, Lohnsteuer).</li>
 <li>Besonderheiten der Reisekostenrichtlinie deines Arbeitgebers.</li>
 </ul>
+<h2>Quellen</h2>
+<p>Geprüft am 11. November 2026 anhand dieser amtlichen Seiten. Die Sätze und Regeln für Inlandsreisen stehen im Gesetz; ein neues BMF-Schreiben zu Reisekosten ab 2026 betrifft Auslandsreisen.</p>
+<ul>
+<li>Verpflegungspauschalen (14 € / 28 €), An- und Abreisetag, Kürzung 20 % / 40 % mit Obergrenze: <a href="https://www.gesetze-im-internet.de/estg/__9.html">Einkommensteuergesetz § 9 Abs. 4a</a></li>
+<li>Bewirtungskosten, 70 % abzugsfähig, Nachweis: <a href="https://www.gesetze-im-internet.de/estg/__4.html">Einkommensteuergesetz § 4 Abs. 5 Satz 1 Nr. 2</a></li>
+<li>Kilometersätze (0,30 € Pkw, 0,20 € andere motorbetriebene Fahrzeuge): <a href="https://www.gesetze-im-internet.de/brkg_2005/__5.html">Bundesreisekostengesetz § 5</a>, angewandt im <a href="https://lsth.bundesfinanzministerium.de/lsth/2026/B-Anhaenge/Anhang-25/III/inhalt.html">Lohnsteuer-Handbuch 2026 (BMF), Reisekosten</a></li>
+<li>Übernachtungspauschale 20 € im Inland (steuerfreie Erstattung durch den Arbeitgeber): <a href="https://lsth.bundesfinanzministerium.de/lsth/2025/A-Einkommensteuergesetz/II-Einkommen-2-24b/4-Ueberschuss-d-Einnahmen-ueber-die-Werbungsk-8-9a/Paragraf-9/r-9-7.html">Lohnsteuer-Handbuch 2025, R 9.7 Übernachtungskosten</a> und die <a href="https://esth.bundesfinanzministerium.de/lsth/2025/tabellarische-Uebersicht/Reisekosten-bei-Ausw%C3%A4rtst%C3%A4tigkeiten.html">Übersicht Reisekosten bei Auswärtstätigkeiten</a></li>
+<li>Umsatzsteuer: ermäßigter Satz für Beförderung im Schienenbahnverkehr (Nr. 10) sowie für Restaurant- und Verpflegungsdienstleistungen ohne Getränke (Nr. 15): <a href="https://www.gesetze-im-internet.de/ustg_1980/__12.html">Umsatzsteuergesetz § 12 Abs. 2</a></li>
+</ul>
+<p>Die Sätze der App stehen in einer Tabelle je Jahr. Ändert der Gesetzgeber einen Satz, wird die Tabelle angepasst und diese Seite aktualisiert.</p>
 <h2>Expense Id</h2>
 <p>Jede Abrechnung bekommt beim Anlegen eine Nummer im Format <code>JJMMTT-XXXXXXXX</code>: der Erstelltag und 8 zufällige Zeichen (ohne verwechselbare wie 0/O oder 1/I). Sie entsteht auf dem Gerät und wird mit der Abrechnung gespeichert; zwei Personen am selben Tag erhalten mit sehr hoher Wahrscheinlichkeit verschiedene Nummern (etwa 1 zu einer Million bei 1.000 neuen Abrechnungen am Tag), eine Garantie gibt es ohne zentrale Stelle nicht.</p>
 

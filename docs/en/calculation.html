@@ -28,13 +28,13 @@
 <h2>Overnight stays and mileage</h2>
 <ul>
 <li>With a hotel invoice the invoice is entered as a receipt. For the same night the overnight allowance is never added.</li>
-<li>The overnight allowance of €20.00 per night is meant for private stays and is under <em>Add › More items</em>.</li>
-<li>Mileage: distance times rate, rounded to cents. <em>Example:</em> 120 km by car = €36.00.</li>
+<li>The overnight allowance of €20.00 per night is meant for private stays and is under <em>Add › More items</em>. It is the amount an employer may reimburse tax-free without receipts; for the tax return only the actual costs count.</li>
+<li>Mileage: distance times rate, rounded to cents; €0.30 per km for a car, €0.20 per km for any other motor vehicle. <em>Example:</em> 120 km by car = €36.00.</li>
 </ul>
 <h2>Receipts and VAT</h2>
 <ul>
 <li>Amounts on receipts are gross, VAT is included: <code>VAT = gross × rate / (100 + rate)</code>, rounded to cents. <em>Example:</em> €231.80 at 19 % contains €37.01 VAT.</li>
-<li>VAT rates: 19 % (regular), 7 % (reduced), 0 %. The preset follows the receipt type (7 % for example for long-distance train tickets, books, ferry tickets and taxi, otherwise 19 %). It is a suggestion; the receipt decides, and you can change the rate per receipt.</li>
+<li>VAT rates: 19 % (regular), 7 % (reduced), 0 %. The preset follows the receipt type (7 % for example for long-distance train tickets, books, ferry tickets and taxi, otherwise 19 %). It is a suggestion; the receipt decides, and you can change the rate per receipt. Since 1 January 2026 food in restaurants is taxed at 7 %, drinks still at 19 %: split a bill with both into items.</li>
 <li><strong>Several VAT rates on one receipt:</strong> the receipt is split into items. The amount is the sum of the items, VAT is calculated per rate and added up.</li>
 <li>A receipt the company already paid counts in the total of receipts and is deducted again from the reimbursement.</li>
 </ul>
@@ -53,6 +53,16 @@
 <li>Whether a trip counts as a business trip for tax purposes (first place of work, three-month rule and the like) and the treatment at the employer (tax exemption, payroll tax).</li>
 <li>Specifics of your employer's travel policy.</li>
 </ul>
+<h2>Sources</h2>
+<p>Checked on 11 November 2026 against these official pages. The rates and rules for domestic trips are in the law; a new BMF letter on travel expenses from 2026 concerns trips abroad.</p>
+<ul>
+<li>Meal allowances (€14 / €28), arrival and departure day, deduction 20 % / 40 % with cap: <a href="https://www.gesetze-im-internet.de/estg/__9.html">Income Tax Act section 9 (4a)</a></li>
+<li>Business meals, 70 % deductible, evidence: <a href="https://www.gesetze-im-internet.de/estg/__4.html">Income Tax Act section 4 (5) sentence 1 no. 2</a></li>
+<li>Mileage rates (€0.30 car, €0.20 other motor vehicles): <a href="https://www.gesetze-im-internet.de/brkg_2005/__5.html">Federal Travel Expenses Act section 5</a>, applied in the <a href="https://lsth.bundesfinanzministerium.de/lsth/2026/B-Anhaenge/Anhang-25/III/inhalt.html">Payroll Tax Handbook 2026 (BMF), travel expenses</a></li>
+<li>Overnight allowance €20 domestic (tax-free reimbursement by the employer): <a href="https://lsth.bundesfinanzministerium.de/lsth/2025/A-Einkommensteuergesetz/II-Einkommen-2-24b/4-Ueberschuss-d-Einnahmen-ueber-die-Werbungsk-8-9a/Paragraf-9/r-9-7.html">Payroll Tax Handbook 2025, R 9.7 accommodation costs</a> and the <a href="https://esth.bundesfinanzministerium.de/lsth/2025/tabellarische-Uebersicht/Reisekosten-bei-Ausw%C3%A4rtst%C3%A4tigkeiten.html">overview of travel costs on business trips</a></li>
+<li>VAT: reduced rate for rail transport (no. 10) and for restaurant and catering services excluding drinks (no. 15): <a href="https://www.gesetze-im-internet.de/ustg_1980/__12.html">VAT Act section 12 (2)</a></li>
+</ul>
+<p>The app's rates are a table per year. If the legislator changes a rate, the table is updated and so is this page.</p>
 <h2>Expense Id</h2>
 <p>Each report gets a number when it is created, in the format <code>YYMMDD-XXXXXXXX</code>: the creation day and 8 random characters (without look-alikes such as 0/O or 1/I). It is made on the device and stored with the report; two people on the same day very probably get different numbers (about 1 in a million with 1,000 new reports a day), without a central authority there is no guarantee.</p>
 
