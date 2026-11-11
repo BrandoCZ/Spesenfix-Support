@@ -1,0 +1,39 @@
+name: Fehler / Bug
+description: Etwas funktioniert nicht wie erwartet / Something does not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Bitte keine echten Belege, Namen, Beträge oder Zugangsdaten** in dieses öffentliche Issue; Screenshots vorher schwärzen oder mit erfundenen Werten nachstellen.
+        **Please no real receipts, names, amounts or credentials** in this public issue; redact screenshots or reproduce with invented values.
+  - type: textarea
+    id: what
+    attributes:
+      label: Was ist passiert? / What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte / Steps to reproduce
+      placeholder: "1. ...\n2. ...\n3. ..."
+  - type: textarea
+    id: expected
+    attributes:
+      label: Was hast du erwartet? / What did you expect?
+  - type: input
+    id: version
+    attributes:
+      label: Version und Build (Einstellungen) / Version and build (Settings)
+      placeholder: "0.7.0 (167)"
+  - type: dropdown
+    id: device
+    attributes:
+      label: Gerät / Device
+      options: [iPhone, iPad, Mac]
+  - type: textarea
+    id: log
+    attributes:
+      label: Protokoll / Log (optional)
+      description: Einstellungen › Diagnose › Protokoll exportieren. Es enthält keine Namen, Händler oder Beträge. / Settings › Diagnostics › Export Log. It contains no names, merchants or amounts.

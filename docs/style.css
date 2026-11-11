@@ -6,3 +6,9 @@ h1 { font-size: 2rem; line-height: 1.2; } h2 { margin-top: 2.2rem; font-size: 1.
 a { color: var(--akzent); } nav { display: flex; gap: 1.2rem; flex-wrap: wrap; padding-bottom: 1rem; border-bottom: 1px solid var(--linie); }
 footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--linie); font-size: .9rem; opacity: .8; }
 .lang { margin-left: auto; font-size: .9rem; } .lang a[aria-current] { font-weight: 700; text-decoration: none; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
+th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid var(--linie); vertical-align: top; }
+th { font-weight: 600; }
+code { font: .9em ui-monospace, "SF Mono", Menlo, monospace; background: color-mix(in srgb, var(--linie) 50%, transparent); padding: .1em .3em; border-radius: 4px; }
+h3 { margin-top: 1.6rem; font-size: 1.05rem; }
+nav { font-size: .95rem; }

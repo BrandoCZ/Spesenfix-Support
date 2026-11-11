@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Berechnung – Spesenfix</title><meta name="description" content="Sätze, Formeln und Beispiele der Berechnung"><link rel="stylesheet" href="style.css"></head>
+<body><main>
+<nav><a href="index.html">Start</a><a href="anleitung.html">Anleitung</a><a href="berechnung.html">Berechnung</a><a href="faq.html">FAQ</a><a href="ideen.html">Ideen</a><a href="versionen.html">Versionen</a><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a><span class="lang"><a href="berechnung.html" aria-current="true">DE</a> · <a href="en/calculation.html">EN</a></span></nav>
+
+<h1>Berechnung</h1>
+<p>Spesenfix rechnet nach den deutschen Regeln für Dienstreisen im Inland (Einkommensteuergesetz, § 9 Abs. 4a und § 4 Abs. 5). Die Sätze liegen als Tabelle je Jahr in der App, nicht im Programmtext. Hier stehen sie so, wie die App sie verwendet. <strong>Das ist keine Steuerberatung.</strong> Maßgeblich sind das Gesetz, die Schreiben des Bundesfinanzministeriums und die Reisekostenrichtlinie deines Arbeitgebers; prüfe die Sätze, bevor du dich auf ein Ergebnis verlässt.</p>
+<h2>Sätze 2026</h2>
+<table><thead><tr><th>Bezeichnung</th><th>Wert</th></tr></thead><tbody>
+<tr><td>Verpflegungspauschale, Abwesenheit über 8 Stunden (eintägig) sowie An- und Abreisetag einer mehrtägigen Reise</td><td>14,00 €</td></tr>
+<tr><td>Verpflegungspauschale, volle 24 Stunden</td><td>28,00 €</td></tr>
+<tr><td>Kürzung bei gestelltem Frühstück</td><td>20 % von 28,00 € = 5,60 €</td></tr>
+<tr><td>Kürzung bei gestelltem Mittagessen</td><td>40 % von 28,00 € = 11,20 €</td></tr>
+<tr><td>Kürzung bei gestelltem Abendessen</td><td>40 % von 28,00 € = 11,20 €</td></tr>
+<tr><td>Übernachtungspauschale (ohne Hotelrechnung)</td><td>20,00 € je Nacht</td></tr>
+<tr><td>Kilometerpauschale Pkw</td><td>0,30 € je km</td></tr>
+<tr><td>Kilometerpauschale Motorrad und Roller</td><td>0,20 € je km</td></tr>
+<tr><td>Bewirtung: nicht abzugsfähiger Anteil des Nettobetrags</td><td>30 %</td></tr>
+</tbody></table>
+<h2>Verpflegung je Kalendertag</h2>
+<ul>
+<li>Eintägige Reise: mehr als 8 Stunden Abwesenheit ergeben 14,00 €, bis 8 Stunden 0,00 €.</li>
+<li>Mehrtägige Reise: An- und Abreisetag jeweils 14,00 €, unabhängig von der Dauer; jeder volle Tag dazwischen 28,00 €.</li>
+<li><strong>Kürzung:</strong> Für jede gestellte Mahlzeit (Frühstück, Mittag, Abendessen) wird der Betrag aus der Tabelle abgezogen. Die Kürzung eines Tages ist nie höher als die Pauschale dieses Tages, der Tagesbetrag nie kleiner als 0.</li>
+</ul>
+<p><em>Beispiel:</em> Ein Abreisetag (14,00 €) mit gestelltem Frühstück und Mittagessen: Frühstück 5,60 €, Mittagessen 11,20 € wären zusammen 16,80 €. Die Kürzung wird auf die Pauschale begrenzt: 5,60 € + <strong>8,40 €</strong> = 14,00 €, der Tag ergibt 0,00 €.</p>
+<h2>Übernachtung und Kilometer</h2>
+<ul>
+<li>Mit Hotelrechnung wird die Rechnung als Beleg erfasst. Für dieselbe Nacht gibt es nie zusätzlich die Übernachtungspauschale.</li>
+<li>Die Übernachtungspauschale von 20,00 € je Nacht ist für private Übernachtungen gedacht und steht unter <em>Hinzufügen › Weitere Posten</em>.</li>
+<li>Kilometer: Strecke mal Satz, auf Cent gerundet. <em>Beispiel:</em> 120 km mit dem Pkw = 36,00 €.</li>
+</ul>
+<h2>Belege und Umsatzsteuer</h2>
+<ul>
+<li>Beträge auf Belegen sind Bruttobeträge, die Umsatzsteuer ist enthalten: <code>USt = Brutto × Satz / (100 + Satz)</code>, auf Cent gerundet. <em>Beispiel:</em> 231,80 € bei 19 % enthalten 37,01 € USt.</li>
+<li>Steuersätze: 19 % (regulär), 7 % (ermäßigt), 0 %. Die Voreinstellung folgt der Belegart (7 % zum Beispiel für Fahrkarten im Fernverkehr, Bücher, Fährtickets und Taxi, sonst 19 %). Sie ist ein Vorschlag; maßgeblich ist der Beleg, und du kannst den Satz je Beleg ändern.</li>
+<li><strong>Mehrere Steuersätze auf einem Beleg:</strong> Der Beleg wird in Posten geteilt. Der Betrag ist die Summe der Posten, die Umsatzsteuer wird je Satz berechnet und addiert.</li>
+<li>Ein Beleg, den die Firma schon bezahlt hat, zählt in der Summe der Belege und wird vom Erstattungsbetrag wieder abgezogen.</li>
+</ul>
+<h2>Bewirtung (§ 4 Abs. 5 Nr. 2 EStG)</h2>
+<ul>
+<li>Pflichtangaben: Datum, Ort, Anlass, Teilnehmer (intern und extern), Beträge. Daraus entsteht die Seite „Details zur Bewirtungskostenabrechnung“ im PDF.</li>
+<li>Das Trinkgeld steht in einer eigenen Zeile und hat keine Umsatzsteuer.</li>
+<li>Nicht abzugsfähig sind 30 % des Nettobetrags der Bewirtung (Brutto minus Umsatzsteuer, <em>ohne</em> Trinkgeld). Die Zeile erscheint nur, wenn externe Gäste eingeladen waren.</li>
+</ul>
+<p><em>Beispiel:</em> Rechnung 122,00 € brutto bei 19 %: USt 19,48 €, netto 102,52 €, davon 30 % = <strong>30,76 €</strong> nicht abzugsfähig. Trinkgeld 13,00 € kommt ohne Steuer dazu; Summe 135,00 €.</p>
+<h2>Erstattungsbetrag</h2>
+<p><code>Erstattung = Übernachtungspauschalen + Verpflegungspauschalen − Kürzungen + Belege + Kilometer − von der Firma bezahlte Belege − Bargeldvorschuss</code></p>
+<h2>Was die App nicht berechnet</h2>
+<ul>
+<li>Auslandsreisen und ausländische Sätze, Fremdwährungen (es wird in Euro gerechnet).</li>
+<li>Ob eine Reise steuerlich als Dienstreise gilt (erste Tätigkeitsstätte, Dreimonatsfrist u. Ä.) und die Behandlung beim Arbeitgeber (Steuerfreiheit, Lohnsteuer).</li>
+<li>Besonderheiten der Reisekostenrichtlinie deines Arbeitgebers.</li>
+</ul>
+<h2>Expense Id</h2>
+<p>Jede Abrechnung bekommt beim Anlegen eine Nummer im Format <code>JJMMTT-XXXXXXXX</code>: der Erstelltag und 8 zufällige Zeichen (ohne verwechselbare wie 0/O oder 1/I). Sie entsteht auf dem Gerät und wird mit der Abrechnung gespeichert; zwei Personen am selben Tag erhalten mit sehr hoher Wahrscheinlichkeit verschiedene Nummern (etwa 1 zu einer Million bei 1.000 neuen Abrechnungen am Tag), eine Garantie gibt es ohne zentrale Stelle nicht.</p>
+
+<footer>Spesenfix ist eine unabhängige App und steht in keiner Verbindung zu HRS, Cytric oder einem Arbeitgeber. Keine Steuerberatung, Angaben ohne Gewähr. Texte: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a>, Dominik Kunze.</footer>
+</main></body></html>

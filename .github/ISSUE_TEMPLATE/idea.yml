@@ -1,0 +1,24 @@
+name: Idee / Idea
+description: Ein Wunsch oder Vorschlag für Spesenfix / A wish or suggestion for Spesenfix
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für deine Idee! **Bitte keine echten Belege, Namen, Beträge oder Zugangsdaten** in dieses öffentliche Issue. Beschreibe den Fall mit erfundenen Werten.
+        Thanks for your idea! **Please no real receipts, names, amounts or credentials** in this public issue. Describe the case with invented values.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was möchtest du erreichen? / What do you want to achieve?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Wie stellst du dir das vor? / How would you imagine it?
+  - type: dropdown
+    id: device
+    attributes:
+      label: Gerät / Device
+      options: [iPhone, iPad, Mac, Alle / All]
